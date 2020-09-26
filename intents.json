@@ -1,0 +1,151 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    
+    {
+        "tag": "about",
+        "patterns": [
+          "Who are you",
+          "Who",
+          "Tell about you",
+          "What are you",
+          "About you?",
+          "About",
+          "You"
+        ],
+        "responses": [
+          "Hey, I'm D.Ace your personal assist.",
+          "I'm fire fist, I can recommend you anime.(Enter anime to get my anime list)",
+          "I am an anime freak's bot, don't mind my name.",
+          "I'm named after an anime character. Read about him at https://g.co/kgs/DbzKCA (Enter anime to get my anime list)"
+        ]
+      },
+      
+      {
+        "tag": "animation",
+        "patterns": [
+          "anime",
+          "Your anime list?",
+          "your favourite animes?",
+          "show me your anime list?"
+          
+        ],
+
+        "responses": [
+          "Here it is \n1. One piece\n2. Naruto\n3. Tokyo Ghoul\n4. Fullmetal Alchemist\n5. Death Note\n Do watch",
+          "Here's a list of my favourite animes in order...\n1. One piece\n2. Naruto\n3. Tokyo Ghoul\n4. Fullmetal Alchemist\n5. Death Note\n Do watch"
+        ]
+      },
+    
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "Sell",
+        "what things you have?"
+      ],
+      "responses": [
+        "We sell shoes",
+        "We sell shoes and are partners with Addidas, Nike and Puma"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    
+    {
+        "tag": "address",
+        "patterns": [
+          "Where do you live?",
+          "where are you?",
+          "How can I find you?",
+          "Your address?",
+          "where",
+          "Where to contact you?"
+          
+        ],
+        "responses": [
+          "Right beside you!",
+          "Currently? where you run me with the right compiler.",
+          "I am where the shoes are."
+        ]
+      },
+    
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    
+    {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+      },
+      
+      {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+      },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
