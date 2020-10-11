@@ -17,6 +17,41 @@
         "Hi there, how can I help?"
       ]
     },
+    {
+      "tag": "Hobbies",
+      "patterns": [
+        "What are your hobbies?",
+        "What do you like?",
+        "Your interests?",
+        "hobby?",
+        "likes?",
+        "Recommend me something?"
+      ],
+      "responses": [
+        "I like cricket, basket ball, music, anime and of course chatting with you.",
+        "Here's a list to what I like...\n1. Cricket\n2. Music\n3. Acting\n4. Anime\n5. Talking\nWhat do you wanna talk about?",
+        "My hobbies are cricket, selling shoes, music, anime, cricket, basketball and talking to you.",
+        "What would you like to hear about music, anime, cricket, shoes our partners?"
+      ]
+    },
+    
+    {
+      "tag": "partners",
+      "patterns": [
+        "Who are your partners?",
+        "which shoes do you have?",
+        "Which brand you have?",
+        "brands?",
+        "sponsors",
+        "partners?"
+      ],
+      "responses": [
+        "We are partners with Addidas, Puma and Nike.",
+        "We sell shoes of the following brand-\n1. Addidas\n2. Puma\n3. Nike",
+        "Addidas, Puma and Nike are our three major sponsors.",
+        "Our brands are Addidas, Puma and Nike."
+      ]
+    },
     
     {
         "tag": "about",
@@ -33,7 +68,7 @@
           "Hey, I'm D.Ace your personal assist.",
           "I'm fire fist, I can recommend you anime.(Enter anime to get my anime list)",
           "I am an anime freak's bot, don't mind my name.",
-          "I'm named after an anime character. Read about him at https://g.co/kgs/DbzKCA (Enter anime to get my anime list)"
+          "I'm named after an anime character. Read about him https://g.co/kgs/DbzKCA (Enter anime to get my anime list)"
         ]
       },
       
